@@ -1,0 +1,40 @@
+.sidebarHero {
+}
+
+.sidebarHero > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: var(--ifm-spacing-horizontal);
+	padding: var(--ifm-spacing-horizontal);
+}
+
+.sidebarHero a {
+	flex: 1 1 50%;
+	text-align: center;
+	--ifm-breadcrumb-size-multiplier: 0.85;
+	display: inline-block;
+	font-size: calc(1rem * var(--ifm-breadcrumb-size-multiplier));
+	padding: calc(
+			var(--ifm-breadcrumb-padding-vertical) *
+				var(--ifm-breadcrumb-size-multiplier)
+		)
+		calc(
+			var(--ifm-breadcrumb-padding-horizontal) *
+				var(--ifm-breadcrumb-size-multiplier)
+		);
+
+	border-radius: 100px;
+	border: 1px solid var(--ifm-color-emphasis-300);
+	text-decoration: none;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.sidebarHero a:not( :hover ) {
+  color: var(--ifm-heading-color);
+}
+
+.sidebarHero a:hover {
+	background-color: var(--ifm-breadcrumb-item-background-active);
+}

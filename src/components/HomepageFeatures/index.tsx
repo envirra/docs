@@ -1,6 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import {themes} from '../../gutenmateThemes';
+import Link from '@docusaurus/Link';
 
 type FeatureItem = {
   title: string;
@@ -58,12 +60,23 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
+      </div> */}
+      <div className="container gtm-theme-list">
+          {Object.entries(themes).map(([key, props]) => (
+            <div key={key} className="gtm-theme-list-item card">
+              <Link className="" to={`/docs/${key}`} target="_blank">
+                <img src={props.imgSidebar}></img>
+                {props.title && <h3>{props.title}</h3> }
+              </Link>
+              {props.description && <p>{props.description}</p> }
+            </div>
+          ))}
       </div>
     </section>
   );
