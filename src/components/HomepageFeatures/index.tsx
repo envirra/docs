@@ -70,8 +70,8 @@ export default function HomepageFeatures(): JSX.Element {
       <div className="container gtm-theme-list">
           {Object.entries(themes).map(([key, props]) => (
             <div key={key} className="gtm-theme-list-item card">
-              <Link className="" to={`/docs/${key}`} target="_blank">
-                <img src={props.imgSidebar}></img>
+              <Link className="" to={`docs/${key}`} target="_blank">
+                <img src={require(`@site/static/img/${props.imgSidebar}`).default}></img>
                 {props.title && <h3>{props.title}</h3> }
               </Link>
               {props.description && <p>{props.description}</p> }

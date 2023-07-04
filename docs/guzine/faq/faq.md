@@ -80,7 +80,7 @@ Please go to [this page](https://developers.google.com/maps/documentation/javasc
 
 ## How to change 'Read More', 'Load More' wording?
 
-You can change any words by [translation](../translation).
+You can change any words by [translation](../translation/translation.md).
 
 ## Why doesn't background video play on mobiles automatically?
 

@@ -17,7 +17,7 @@ To start making changes to the website, navigate to `Appearance > Editor`
 
 ## Theme options
 
-The Gutenmate plugin offers options for the theme. The Gutenmate plugin options page can be used to manage options. More information [here](../gutenmate/plugin-options)
+The Gutenmate plugin offers options for the theme. The Gutenmate plugin options page can be used to manage options. More information [here](../gutenmate/plugin-options.md)
 
 ## Editing logo
 
