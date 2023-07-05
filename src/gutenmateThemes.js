@@ -33,8 +33,8 @@ export function ThemeSidebarHeader() {
 		<div className={styles.sidebarHero}>
 			{theme.imgSidebar && <img src={require(`@site/static/img/${theme.imgSidebar}`).default}></img>}
 			<div className="gtm-theme-sidebar-hero__inner">
-				{theme.demoUrl && <a href={theme.demoUrl} className={styles.sidebarHeroButton}>▶ Demo</a>}
-				{theme.itemUrl && <a href={theme.itemUrl} className={styles.sidebarHeroButton}>🛒 Purchase</a>}
+				{theme.demoUrl && <a href={theme.demoUrl} className={styles.sidebarHeroButton} target="_blank">▶ Demo</a>}
+				{theme.itemUrl && <a href={theme.itemUrl} className={styles.sidebarHeroButton} target="_blank">🛒 Purchase</a>}
 			</div>
 		</div>
 	);
