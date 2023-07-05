@@ -13,8 +13,14 @@ Gutenmate allow you configure these options
 * **Image Sizes** Configure an image sizes for using in your website. After made a change, Please regenerate by using [this plugin](https://wordpress.org/plugins/regenerate-thumbnails/)
 * **Post Sharing** Configure a site-wide options for Post Share block.
 * **Post Views** Configure a site-wide options for Post Views block. The post view feature requires [this plugin](https://wordpress.org/plugins/wordpress-popular-posts/) to be working.
+* **Post Format Icons** Configure a site-wide options for Post format icons.
+* **Advertisement** Add an advertisement code for the pre-defined ad locations.
 * **SEO Optimization** Configure an essential SEO optimization. If you're using an advanced SEO plugin, Please disable all options in this sections.
 * **Icon Sets** Configure an icon set to be used. Turn on an icon pack to get more icons!
+* **AMP** Configure options for AMP pages.
+* **Custom Scripts** Add any JS code into all pages.
+* **Custom Styles** Add any CSS code into all pages.
+* **Custom Codes** Add any HTML code into the head tag of all pages.
 
 Click the button **Save Changes** after made a change.
 
