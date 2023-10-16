@@ -72,3 +72,32 @@
   font-size: .8rem;
   color: var(--ifm-color-emphasis-800);
 }
+
+.menu__list .menu__list {
+  font-size: 14px;
+  --ifm-menu-link-padding-horizontal: 1.5rem;
+}
+.menu__list-item:not(:first-child) {
+  margin-top: 0.4rem;
+}
+.menu__caret:before {
+  background-size: 1.5rem;
+}
+
+.theme-doc-markdown p img {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.05) 0px 0px 8px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.theme-doc-markdown code {
+  --ifm-code-padding-horizontal: 0.4rem;
+}
+
+iframe[src*="youtube"] {
+  aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+  max-width: 100%;
+}

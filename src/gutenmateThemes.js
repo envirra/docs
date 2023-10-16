@@ -3,6 +3,13 @@ import { useDocsSidebar } from "@docusaurus/theme-common/internal";
 import styles from './gutenmateThemes.module.css';
 
 export const themes = {
+	qrten: {
+		title: "Qrten",
+		description: "Qrten - Full site customizable WordPress block theme with WooCommerce for multipurpose blog and online shop",
+		imgSidebar: "theme-qrten-preview.png",
+		demoUrl: "https://demo.gutenmate.com/demo-a/qrten/",
+		itemUrl: "https://themeforest.net/item/breadly-adsense-optimized-minimal-blog-wordpress-block-theme-with-woocommerce-support/45833289",
+	},
 	breadly: {
 		title: "Breadly",
 		description: "Breadly - Adsense Optimized Minimal Blog WordPress Block Theme with WooCommerce support",
