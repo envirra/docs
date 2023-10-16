@@ -32,7 +32,7 @@ If you still have the issue. Submit a ticket with URL of page which has issue.
 
 In order to help speed up solution for your requests. Please follow steps below before submitting a new question. This is for the benefit of everyone in order to help find the solution for your question quickly.
 
-1. Please check [FAQ section](../faq/faq.md).
+1. Please check [FAQ section](faq.md).
 2. Make sure you are running the latest version of Theme and the latest version of WordPress.
 3. Refresh the browser to make sure the problem is not from browser's cache. Otherwise, Try it on a different browser.
 4. Check out theme documentation and discussion forum for the answer to your question.
