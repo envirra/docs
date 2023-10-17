@@ -7,8 +7,8 @@ export const themes = {
 		title: "Qrten",
 		description: "Qrten - Full site customizable WordPress block theme with WooCommerce for multipurpose blog and online shop",
 		imgSidebar: "theme-qrten-preview.png",
-		demoUrl: "https://demo.gutenmate.com/demo-a/qrten/",
-		itemUrl: "https://themeforest.net/item/breadly-adsense-optimized-minimal-blog-wordpress-block-theme-with-woocommerce-support/45833289",
+		demoUrl: "https://demo.gutenmate.com/demo-a/qrten/landing",
+		itemUrl: "https://themeforest.net/item/qrten-blockbased-wordpress-theme-for-blog-magazine-and-woocommerce-shop-with-adsense-optimized/48706915",
 	},
 	breadly: {
 		title: "Breadly",
