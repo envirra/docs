@@ -3,6 +3,13 @@ import { useDocsSidebar } from "@docusaurus/theme-common/internal";
 import styles from './gutenmateThemes.module.css';
 
 export const themes = {
+	curio: {
+		title: "Curio",
+		description: "Curio - Full site customizable WordPress block theme with WooCommerce for ecommerce online shop",
+		imgSidebar: "theme-curio-preview.png",
+		demoUrl: "https://demo.gutenmate.com/demo-b/curio/landing",
+		itemUrl: "https://themeforest.net/item/qrten-blockbased-wordpress-theme-for-blog-magazine-and-woocommerce-shop-with-adsense-optimized/48706915",
+	},
 	gravia: {
 		title: "Gravia",
 		description: "Gravia - Full site customizable WordPress block theme with WooCommerce for ecommerce online shop",
